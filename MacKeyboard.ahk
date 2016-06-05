@@ -52,46 +52,46 @@ F19::Run https://facebook.com
 ; --------------------------------------------------------------
 
 ; Make Ctrl + S work with cmd (windows) key
-#s::^s
+!s::^s
 
 ; Selecting
-#a::^a
+!a::^a
 
 ; Copying
-#c::^c
+!c::^c
 
 ; Pasting
-#v::^v
+!v::^v
 
 ; Cutting
-#x::^x
+!x::^x
 
 ; Opening
-#o::^o
+!o::^o
 
 ; Finding
-#f::Send ^f
+!f::Send ^f
 
 ; Undo
-#z::^z
+!z::^z
 
 ; Redo
-#y::^y
+!y::^y
 
 ; New tab
-#t::^t
+!t::^t
 
 ; close tab
-#w::^w
+!w::^w
 
 ; Close windows (cmd + q to Alt + F4)
-#q::Send !{F4}
+!q::Send !{F4}
 
 ; Remap Windows + Tab to Alt + Tab.
-Lwin & Tab::AltTab
+; Lwin & Tab::AltTab
 
 ; minimize windows
-#m::WinMinimize,a
+!m::WinMinimize,a
 
 
 ; --------------------------------------------------------------
@@ -145,15 +145,8 @@ Lwin & Tab::AltTab
 
 
 ; --------------------------------------------------------------
-; Custom mappings for special chars
+; Win 10 mapping
 ; --------------------------------------------------------------
-
-#ö::SendInput {[} 
-#ä::SendInput {]} 
-
-^ö::SendInput {{} 
-^ä::SendInput {}} 
-
 
 ; --------------------------------------------------------------
 ; Application specific
