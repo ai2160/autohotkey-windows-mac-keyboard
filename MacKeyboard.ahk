@@ -42,9 +42,9 @@ F14::SendInput {ScrollLock}
 F15::SendInput {Pause}
 
 ;F16-19 custom app launchers, see http://www.autohotkey.com/docs/Tutorial.htm for usage info
-F16::Run http://twitter.com
-F17::Run http://tumblr.com
-F18::Run http://www.reddit.com
+F16::Run http://aws.westerncamperphoto.com
+F17::Run http://news.google.com
+F18::Run http://www.flickr.com
 F19::Run https://facebook.com
 
 ; --------------------------------------------------------------
@@ -52,40 +52,40 @@ F19::Run https://facebook.com
 ; --------------------------------------------------------------
 
 ; Make Ctrl + S work with cmd (windows) key
-!s::^s
+#s::^s
 
 ; Selecting
-!a::^a
+#a::^a
 
 ; Copying
-!c::^c
+#c::^c
 
 ; Pasting
-!v::^v
+#v::^v
 
 ; Cutting
-!x::^x
+#x::^x
 
 ; Opening
-!o::^o
+#o::^o
 
 ; Finding
-!f::Send ^f
+#f::Send ^f
 
 ; Undo
-!z::^z
+#z::^z
 
 ; Redo
-!y::^y
+#y::^y
 
 ; New tab
-!t::^t
+#t::^t
 
 ; close tab
-!w::^w
+#w::^w
 
 ; Close windows (cmd + q to Alt + F4)
-!q::Send !{F4}
+#q::Send !{F4}
 
 ; Remap Windows + Tab to Alt + Tab.
 ; Lwin & Tab::AltTab
