@@ -88,7 +88,7 @@ F19::Run https://facebook.com
 #q::Send !{F4}
 
 ; Remap Windows + Tab to Alt + Tab.
-; Lwin & Tab::AltTab
+Lwin & Tab::AltTab
 
 ; minimize windows
 !m::WinMinimize,a
